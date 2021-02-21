@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Power_Management:LTC4365DDB U?
-U 1 1 602CD1DE
-P 5750 4100
-AR Path="/602CD1DE" Ref="U?"  Part="1" 
-AR Path="/602C82B2/602CD1DE" Ref="U1"  Part="1" 
-F 0 "U1" H 5750 4681 50  0000 C CNN
-F 1 "LTC4365DDB" H 5750 4590 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm" H 5750 3600 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf" H 5750 4200 50  0001 C CNN
-	1    5750 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 3900 4900 3900
 Wire Wire Line
@@ -85,26 +72,6 @@ Wire Wire Line
 Connection ~ 6350 3300
 $Comp
 L power:GND #PWR?
-U 1 1 602CD201
-P 5800 4600
-AR Path="/602CD201" Ref="#PWR?"  Part="1" 
-AR Path="/602C82B2/602CD201" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 5800 4350 50  0001 C CNN
-F 1 "GND" H 5805 4427 50  0000 C CNN
-F 2 "" H 5800 4600 50  0001 C CNN
-F 3 "" H 5800 4600 50  0001 C CNN
-	1    5800 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 4500 5800 4500
-Wire Wire Line
-	5800 4500 5800 4600
-Connection ~ 5800 4500
-Wire Wire Line
-	5800 4500 5850 4500
-$Comp
-L power:GND #PWR?
 U 1 1 602CD20B
 P 4700 5050
 AR Path="/602CD20B" Ref="#PWR?"  Part="1" 
@@ -134,7 +101,7 @@ AR Path="/602CD216" Ref="R?"  Part="1"
 AR Path="/602C82B2/602CD216" Ref="R3"  Part="1" 
 F 0 "R3" H 4770 4946 50  0000 L CNN
 F 1 "100k" H 4770 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4630 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 4900 50  0001 C CNN
 F 3 "~" H 4700 4900 50  0001 C CNN
 	1    4700 4900
 	1    0    0    -1  
@@ -149,7 +116,7 @@ AR Path="/602CD21D" Ref="R?"  Part="1"
 AR Path="/602C82B2/602CD21D" Ref="R4"  Part="1" 
 F 0 "R4" H 5220 4046 50  0000 L CNN
 F 1 "100k" H 5220 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5080 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 4000 50  0001 C CNN
 F 3 "~" H 5150 4000 50  0001 C CNN
 	1    5150 4000
 	0    1    1    0   
@@ -194,7 +161,7 @@ AR Path="/602CD23A" Ref="R?"  Part="1"
 AR Path="/602C82B2/602CD23A" Ref="R2"  Part="1" 
 F 0 "R2" H 4770 4546 50  0000 L CNN
 F 1 "200k" H 4770 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4630 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 4500 50  0001 C CNN
 F 3 "~" H 4700 4500 50  0001 C CNN
 	1    4700 4500
 	1    0    0    -1  
@@ -213,7 +180,7 @@ AR Path="/602CD244" Ref="R?"  Part="1"
 AR Path="/602C82B2/602CD244" Ref="R1"  Part="1" 
 F 0 "R1" H 4770 4146 50  0000 L CNN
 F 1 "2.7M" H 4770 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4630 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 4100 50  0001 C CNN
 F 3 "~" H 4700 4100 50  0001 C CNN
 	1    4700 4100
 	1    0    0    -1  
@@ -250,7 +217,7 @@ F 3 "~" H 6100 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 4700 3300 0    50   Input ~ 0
-Vin
+vin
 Text HLabel 7350 3300 2    50   Output ~ 0
 Vout
 Text HLabel 7350 3500 2    50   Output ~ 0
@@ -265,4 +232,43 @@ Wire Wire Line
 	6350 4000 6150 4000
 Wire Wire Line
 	6350 3300 6650 3300
+Wire Wire Line
+	5800 4500 5850 4500
+Wire Wire Line
+	5750 4500 5800 4500
+Connection ~ 5800 4500
+Wire Wire Line
+	5800 4500 5800 4600
+$Comp
+L power:GND #PWR?
+U 1 1 602CD201
+P 5800 4600
+AR Path="/602CD201" Ref="#PWR?"  Part="1" 
+AR Path="/602C82B2/602CD201" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5800 4350 50  0001 C CNN
+F 1 "GND" H 5805 4427 50  0000 C CNN
+F 2 "" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:LTC4365DDB U?
+U 1 1 602CD1DE
+P 5750 4100
+AR Path="/602CD1DE" Ref="U?"  Part="1" 
+AR Path="/602C82B2/602CD1DE" Ref="U1"  Part="1" 
+F 0 "U1" H 5750 4681 50  0000 C CNN
+F 1 "LTC4365DDB" H 5750 4590 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm" H 5750 3600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf" H 5750 4200 50  0001 C CNN
+	1    5750 4100
+	1    0    0    -1  
+$EndComp
+Text Label 4900 4300 0    50   ~ 0
+uv_sense
+Text Label 4900 4700 0    50   ~ 0
+ov_sense
+Text Label 5000 3900 0    50   ~ 0
+vin
 $EndSCHEMATC

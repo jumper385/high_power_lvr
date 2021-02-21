@@ -42,7 +42,7 @@ AR Path="/602A55C2" Ref="R?"  Part="1"
 AR Path="/602A1165/602A55C2" Ref="R5"  Part="1" 
 F 0 "R5" H 7120 4296 50  0000 L CNN
 F 1 "18" H 7120 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6980 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 4250 50  0001 C CNN
 F 3 "~" H 7050 4250 50  0001 C CNN
 	1    7050 4250
 	1    0    0    -1  

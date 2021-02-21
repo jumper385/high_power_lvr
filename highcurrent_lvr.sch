@@ -24,34 +24,6 @@ F 3 "" H 800 800 50  0001 C CNN
 	1    800  800 
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R8
-U 1 1 602D43E7
-P 5000 5500
-F 0 "R8" H 5070 5546 50  0000 L CNN
-F 1 "1k" H 5070 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 5500 50  0001 C CNN
-F 3 "~" H 5000 5500 50  0001 C CNN
-	1    5000 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 602D53F2
-P 5000 5300
-F 0 "R9" H 5070 5346 50  0000 L CNN
-F 1 "1k" H 5070 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 5300 50  0001 C CNN
-F 3 "~" H 5000 5300 50  0001 C CNN
-	1    5000 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4400 5300 4850 5300
-Wire Wire Line
-	4400 5700 4850 5700
-Wire Wire Line
-	4400 5500 4850 5500
 Wire Wire Line
 	800  800  800  1000
 $Comp
@@ -89,29 +61,12 @@ F 3 "~" H 1200 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1200 1000 1200 800 
-Text Label 4400 5700 0    50   ~ 0
-error
-Text Label 4400 5300 0    50   ~ 0
-supp_error
-Text Label 4400 5500 0    50   ~ 0
-vout
-$Comp
-L Device:R R7
-U 1 1 604ED0D2
-P 5000 5700
-F 0 "R7" H 5070 5746 50  0000 L CNN
-F 1 "1k" H 5070 5655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 5700 50  0001 C CNN
-F 3 "~" H 5000 5700 50  0001 C CNN
-	1    5000 5700
-	0    -1   -1   0   
-$EndComp
 $Sheet
 S 6150 3050 950  500 
 U 602C82B2
 F0 "Cutoff" 50
 F1 "Cutoff.sch" 50
-F2 "Vin" I L 6150 3150 50 
+F2 "vin" I L 6150 3150 50 
 F3 "Vout" O R 7100 3150 50 
 F4 "GND" O R 7100 3250 50 
 F5 "fault" O R 7100 3450 50 
@@ -142,56 +97,6 @@ Text Label 7250 3150 0    50   ~ 0
 vout
 Text Label 5650 3150 0    50   ~ 0
 reg_out
-$Comp
-L Device:LED D1
-U 1 1 602FA7E4
-P 5500 5300
-F 0 "D1" H 5493 5045 50  0000 C CNN
-F 1 "LED" H 5493 5136 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 5300 50  0001 C CNN
-F 3 "~" H 5500 5300 50  0001 C CNN
-	1    5500 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 5300 5350 5300
-$Comp
-L Device:LED D2
-U 1 1 602FC079
-P 5500 5500
-F 0 "D2" H 5493 5245 50  0000 C CNN
-F 1 "LED" H 5493 5336 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 5500 50  0001 C CNN
-F 3 "~" H 5500 5500 50  0001 C CNN
-	1    5500 5500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 5500 5350 5500
-$Comp
-L power:GND #PWR0115
-U 1 1 602FC629
-P 6200 6800
-F 0 "#PWR0115" H 6200 6550 50  0001 C CNN
-F 1 "GND" H 6205 6627 50  0000 C CNN
-F 2 "" H 6200 6800 50  0001 C CNN
-F 3 "" H 6200 6800 50  0001 C CNN
-	1    6200 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 602FC62F
-P 5500 5700
-F 0 "D3" H 5493 5445 50  0000 C CNN
-F 1 "LED" H 5493 5536 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 5700 50  0001 C CNN
-F 3 "~" H 5500 5700 50  0001 C CNN
-	1    5500 5700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 5700 5350 5700
 Wire Wire Line
 	3750 3150 4200 3150
 Wire Wire Line
@@ -253,10 +158,10 @@ Wire Wire Line
 Text Notes 3750 4600 0    50   ~ 0
 add reverse polarity protection
 $Comp
-L Connector:Conn_01x02_Female J1
+L Connector:Conn_01x02_Female POWER_IN1
 U 1 1 602E4815
 P 3550 3250
-F 0 "J1" H 3578 3226 50  0000 L CNN
+F 0 "POWER_IN1" H 3578 3226 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 3578 3135 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 3550 3250 50  0001 C CNN
 F 3 "~" H 3550 3250 50  0001 C CNN
@@ -264,28 +169,16 @@ F 3 "~" H 3550 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J2
+L Connector:Conn_01x02_Female POWER_OUT1
 U 1 1 602E8D12
-P 7850 3150
-F 0 "J2" H 7878 3126 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 7878 3035 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 7850 3150 50  0001 C CNN
-F 3 "~" H 7850 3150 50  0001 C CNN
-	1    7850 3150
-	1    0    0    -1  
+P 7850 3250
+F 0 "POWER_OUT1" H 7878 3226 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 7878 3135 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 7850 3250 50  0001 C CNN
+F 3 "~" H 7850 3250 50  0001 C CNN
+	1    7850 3250
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5650 5300 6200 5300
-Wire Wire Line
-	5650 5500 6200 5500
-Connection ~ 6200 5500
-Wire Wire Line
-	6200 5500 6200 5300
-Wire Wire Line
-	5650 5700 6200 5700
-Connection ~ 6200 5700
-Wire Wire Line
-	6200 5700 6200 5500
-Wire Wire Line
-	6200 5700 6200 6800
+NoConn ~ 7250 3900
+NoConn ~ 5450 3900
 $EndSCHEMATC
