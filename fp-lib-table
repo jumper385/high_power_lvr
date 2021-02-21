@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name FA-T220-51E)(type Legacy)(uri ${KIPRJMOD}/LIB_FA-T220-51E/FA-T220-51E/KiCad/FA-T220-51E.mod)(options "")(descr ""))
+  (lib (name heatsink-lib)(type KiCad)(uri ${KIPRJMOD}/heatsink-lib.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FA-T220-51E"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-15-15:54:09)
+    (mountForm default
+        (footprintRef "FAT22051E")
+        (spec "System")
+    )
+)

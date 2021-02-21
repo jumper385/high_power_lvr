@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "FAT22051E"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "FAT22051E")
+        (spec "default")
+    )
+)

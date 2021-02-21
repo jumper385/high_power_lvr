@@ -1,0 +1,18 @@
+.FA-T220-51E :1 ;Heatsink, TBH25 Ohmite Resistor Series, TCH35 Ohmite Resistor Series, TEH100 Ohmite Resistor Series, TEH70 Ohmite
+FAT22051E
+*STM H
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN FA-T220-51E
+~!Manufacturer_Name (Ohmite)
+~!Manufacturer_Part_Number (FA-T220-51E)
+~!Mouser Part Number (588-FA-T220-51E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Ohmite/FA-T220-51E?qs=wmFqszA%252Be7MQyEti3tdGCQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/FA-T220-51E.pdf)
+~!Height (50.8mm)
+~!3D_Model (FA-T220-51E)
+FA-T220-51E
+1.1!U 2.1!U 

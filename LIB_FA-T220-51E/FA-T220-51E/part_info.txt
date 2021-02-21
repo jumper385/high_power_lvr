@@ -1,0 +1,9 @@
+Manufacturer=Ohmite
+PartNumber=FA-T220-51E
+PartCategory=Hardware
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2019-10-15 15:54:09
+Downloaded=2021-02-14 14:52:20
+3D=Y

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1120279"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-15-15:54:09)
+    (utime 2019-10-16-07:12:11)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "FA-T220-51E")
+)
+
+
+(pinAssign "ECS_1120279"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-15-15:54:09)
+    (utime 2019-10-16-07:12:11)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1120279")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "FA-T220-51E")
+)
+
+
+(part "FA-T220-51E"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-15-15:54:09)
+    (utime 2019-10-16-07:12:11)
+    (packageRef "FA-T220-51E")
+    (pinAssignRef "ECS_1120279")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "H")
+    (property "description" "Heatsink, TBH25 Ohmite Resistor Series, TCH35 Ohmite Resistor Series, TEH100 Ohmite Resistor Series, TEH70 Ohmite")
+    (property "Manufacturer_Name" "Ohmite")
+    (property "Manufacturer_Part_Number" "FA-T220-51E")
+    (property "Mouser_Part_Number" "588-FA-T220-51E")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Ohmite/FA-T220-51E?qs=wmFqszA%252Be7MQyEti3tdGCQ%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/FA-T220-51E.pdf")
+    (property "compAreaTopHeight" 50.8)
+)
+
+

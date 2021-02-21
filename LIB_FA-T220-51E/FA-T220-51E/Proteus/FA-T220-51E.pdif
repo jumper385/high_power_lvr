@@ -1,0 +1,115 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "FA-T220-51E"
+   (description "Heatsink, TBH25 Ohmite Resistor Series, TCH35 Ohmite Resistor Series, TEH100 Ohmite Resistor Series, TEH70 Ohmite")
+   (family "ANA")
+   (package "FAT22051E")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/FA-T220-51E.pdf")
+   (attribute "Geometry.Height" "50.8mm")
+   (attribute "Manufacturer_Name" "Ohmite")
+   (attribute "Manufacturer_Part_Number" "FA-T220-51E")
+   (attribute "Mouser Part Number" "588-FA-T220-51E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Ohmite/FA-T220-51E?qs=wmFqszA%252Be7MQyEti3tdGCQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "FA-T220-51E")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "FA-T220-51E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FAT22051E"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.6 13)
+      (pt 34 13)
+      (pt 34 -13)
+      (pt -8.6 -13)
+      (pt -8.6 13))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 33.5 12.5)
+      (pt 33.5 -12.5)
+      (pt 21.2 -12.5)
+      (pt 21.2 -0.75)
+      (pt 4.2 -0.75)
+      (pt 4.2 -12.5)
+      (pt -8.1 -12.5)
+      (pt -8.1 12.5)
+      (pt 4.2 12.5)
+      (pt 4.2 0.75)
+      (pt 21.2 0.75)
+      (pt 21.2 12.5)
+      (pt 33.5 12.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.1 12.5)
+      (pt 4.2 12.5)
+      (pt 4.2 0.75)
+      (pt 21.2 0.75)
+      (pt 21.2 12.5)
+      (pt 33.5 12.5)
+      (pt 33.5 -12.5)
+      (pt 21.2 -12.5)
+      (pt 21.2 -0.75)
+      (pt 4.2 -0.75)
+      (pt 4.2 -12.5)
+      (pt -8.1 -12.5)
+      (pt -8.1 12.5))))
+   (leg 1 (pt -0.000 0.000) (padstack 0))
+   (leg 2 (pt 25.400 0.000) (padstack 0))
+   (padstack 0
+    (hole 2.5)
+    (plated true)
+    (pad (layer TCOP) (round 3.750))
+    (pad (layer INNER) (round 3.750))
+    (pad (layer BCOP) (round 3.750))
+   )
+   (model "FA-T220-51E.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

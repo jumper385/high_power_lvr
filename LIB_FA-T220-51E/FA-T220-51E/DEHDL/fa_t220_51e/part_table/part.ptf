@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FA_T220_51E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Ohmite", "FA-T220-51E" (!) = "", "FAT22051E", "Other", "588-FA-T220-51E", "https://www.mouser.co.uk/ProductDetail/Ohmite/FA-T220-51E?qs=wmFqszA%252Be7MQyEti3tdGCQ%3D%3D", "", "", "Heatsink, TBH25 Ohmite Resistor Series, TCH35 Ohmite Resistor Series, TEH100 Ohmite Resistor Series, TEH70 Ohmite", "https://componentsearchengine.com/Datasheets/1/FA-T220-51E.pdf", "50.8 mm"
+END_PART
+
+END.
