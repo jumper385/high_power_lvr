@@ -44,6 +44,8 @@ F 0 "R5" H 7120 4296 50  0000 L CNN
 F 1 "18" H 7120 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 4250 50  0001 C CNN
 F 3 "~" H 7050 4250 50  0001 C CNN
+F 4 "667-ERA-6AHD180V" H 7050 4250 50  0001 C CNN "ms_pn"
+F 5 "P100KDACT-ND" H 7050 4250 50  0001 C CNN "dk_pn"
 	1    7050 4250
 	1    0    0    -1  
 $EndComp
@@ -75,8 +77,10 @@ AR Path="/602A55D2" Ref="C?"  Part="1"
 AR Path="/602A1165/602A55D2" Ref="C2"  Part="1" 
 F 0 "C2" H 5518 4546 50  0000 L CNN
 F 1 "10uF" H 5518 4455 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 5438 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5438 4350 50  0001 C CNN
 F 3 "~" H 5400 4500 50  0001 C CNN
+F 4 "" H 5400 4500 50  0001 C CNN "ms_pn"
+F 5 "1276-2891-1-ND" H 5400 4500 50  0001 C CNN "dk_pn"
 	1    5400 4500
 	1    0    0    -1  
 $EndComp
@@ -138,8 +142,10 @@ AR Path="/602A55F6" Ref="R?"  Part="1"
 AR Path="/602A1165/602A55F6" Ref="R6"  Part="1" 
 F 0 "R6" H 7178 4646 50  0000 L CNN
 F 1 "0 - 200" H 7178 4555 50  0000 L CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" V 6980 4600 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal" V 6980 4600 50  0001 C CNN
 F 3 "~" H 7050 4600 50  0001 C CNN
+F 4 "652-3224G-1-201E" H 7050 4600 50  0001 C CNN "ms_pn"
+F 5 "3224G-1-201ECT-ND" H 7050 4600 50  0001 C CNN "dk_pn"
 	1    7050 4600
 	1    0    0    -1  
 $EndComp
@@ -153,6 +159,8 @@ F 0 "U2" H 6300 4517 50  0000 C CNN
 F 1 "MIC29303WU" H 6300 4426 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6400 3900 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf" H 6300 4150 50  0001 C CNN
+F 4 "998-MIC29303WU" H 6300 4150 50  0001 C CNN "ms_pn"
+F 5 "MIC29303WU-CT-ND" H 6300 4150 50  0001 C CNN "dk_pn"
 	1    6300 4150
 	1    0    0    -1  
 $EndComp
@@ -189,7 +197,7 @@ Connection ~ 7050 4450
 Text Notes 6500 3550 0    50   ~ 0
 Add a Heat Sink
 Text Notes 6500 3650 0    50   ~ 0
-Target Junction Temperature of 75C
+Junction Temperature: 90C
 $Comp
 L Device:CP C?
 U 1 1 602A5615
@@ -198,8 +206,10 @@ AR Path="/602A5615" Ref="C?"  Part="1"
 AR Path="/602A1165/602A5615" Ref="C3"  Part="1" 
 F 0 "C3" H 7818 4546 50  0000 L CNN
 F 1 "10uF" H 7818 4455 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 7738 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7738 4350 50  0001 C CNN
 F 3 "~" H 7700 4500 50  0001 C CNN
+F 4 "" H 7700 4500 50  0001 C CNN "ms_pn"
+F 5 "1276-2891-1-ND" H 7700 4500 50  0001 C CNN "dk_pn"
 	1    7700 4500
 	1    0    0    -1  
 $EndComp
@@ -224,8 +234,9 @@ U 1 1 6030E825
 P 5950 3650
 F 0 "HS1" H 6092 3771 50  0000 L CNN
 F 1 "Heatsink" H 6092 3680 50  0000 L CNN
-F 2 "Heatsink:547-95AB" H 5962 3650 50  0001 C CNN
+F 2 "heatsink-lib:ATS-1139-C1-R0" H 5962 3650 50  0001 C CNN
 F 3 "~" H 5962 3650 50  0001 C CNN
+F 4 "" H 5950 3650 50  0001 C CNN "ms_pn"
 	1    5950 3650
 	1    0    0    -1  
 $EndComp

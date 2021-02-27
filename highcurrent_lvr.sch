@@ -87,8 +87,6 @@ Wire Wire Line
 	5350 3150 6150 3150
 Wire Wire Line
 	7100 3450 7250 3450
-Wire Wire Line
-	7250 3450 7250 3900
 Text Label 5450 3900 1    50   ~ 0
 supp_error
 Text Label 7250 3900 1    50   ~ 0
@@ -165,6 +163,8 @@ F 0 "POWER_IN1" H 3578 3226 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 3578 3135 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 3550 3250 50  0001 C CNN
 F 3 "~" H 3550 3250 50  0001 C CNN
+F 4 "651-1711026" H 3550 3250 50  0001 C CNN "ms_pn"
+F 5 "277-1258-ND" H 3550 3250 50  0001 C CNN "dk_pn"
 	1    3550 3250
 	-1   0    0    1   
 $EndComp
@@ -176,9 +176,49 @@ F 0 "POWER_OUT1" H 7878 3226 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 7878 3135 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 7850 3250 50  0001 C CNN
 F 3 "~" H 7850 3250 50  0001 C CNN
+F 4 "651-1711026" H 7850 3250 50  0001 C CNN "ms_pn"
+F 5 "277-1258-ND" H 7850 3250 50  0001 C CNN "dk_pn"
 	1    7850 3250
 	1    0    0    1   
 $EndComp
-NoConn ~ 7250 3900
 NoConn ~ 5450 3900
+$Comp
+L Device:LED D?
+U 1 1 60393075
+P 7250 4150
+F 0 "D?" V 7289 4032 50  0000 R CNN
+F 1 "LED" V 7198 4032 50  0000 R CNN
+F 2 "" H 7250 4150 50  0001 C CNN
+F 3 "~" H 7250 4150 50  0001 C CNN
+	1    7250 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 3450 7250 4000
+$Comp
+L Device:R R?
+U 1 1 603954F6
+P 7250 4600
+F 0 "R?" H 7320 4646 50  0000 L CNN
+F 1 "2k2" H 7320 4555 50  0000 L CNN
+F 2 "" V 7180 4600 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60395E84
+P 7250 4900
+F 0 "#PWR?" H 7250 4650 50  0001 C CNN
+F 1 "GND" H 7255 4727 50  0000 C CNN
+F 2 "" H 7250 4900 50  0001 C CNN
+F 3 "" H 7250 4900 50  0001 C CNN
+	1    7250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4900 7250 4750
+Wire Wire Line
+	7250 4450 7250 4300
 $EndSCHEMATC
