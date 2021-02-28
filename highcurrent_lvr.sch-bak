@@ -151,60 +151,8 @@ Wire Wire Line
 	7450 3250 7950 3250
 Text Notes 3750 4600 0    50   ~ 0
 add reverse polarity protection
-$Comp
-L Connector:Conn_01x02_Female POWER_IN1
-U 1 1 602E4815
-P 3550 3250
-F 0 "POWER_IN1" H 3578 3226 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 3578 3135 50  0000 L CNN
-F 2 "wire-connector-lib:connector-wire-3cm2-2pin-smd" H 3550 3250 50  0001 C CNN
-F 3 "~" H 3550 3250 50  0001 C CNN
-F 4 "651-1711026" H 3550 3250 50  0001 C CNN "ms_pn"
-F 5 "277-1258-ND" H 3550 3250 50  0001 C CNN "dk_pn"
-	1    3550 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female POWER_OUT1
-U 1 1 602E8D12
-P 8150 3250
-F 0 "POWER_OUT1" H 8178 3226 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 8178 3135 50  0000 L CNN
-F 2 "wire-connector-lib:connector-wire-3cm2-2pin-smd" H 8150 3250 50  0001 C CNN
-F 3 "~" H 8150 3250 50  0001 C CNN
-F 4 "651-1711026" H 8150 3250 50  0001 C CNN "ms_pn"
-F 5 "277-1258-ND" H 8150 3250 50  0001 C CNN "dk_pn"
-	1    8150 3250
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 60393075
-P 7250 4150
-F 0 "D1" V 7289 4032 50  0000 R CNN
-F 1 "LED" V 7198 4032 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 4150 50  0001 C CNN
-F 3 "~" H 7250 4150 50  0001 C CNN
-F 4 "754-2044-1-ND" H 7250 4150 50  0001 C CNN "dk_pn"
-F 5 "604-APTD2012LSURCK" H 7250 4150 50  0001 C CNN "ms_pn"
-	1    7250 4150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7250 3450 7250 4000
-$Comp
-L Device:R R7
-U 1 1 603954F6
-P 7250 4600
-F 0 "R7" H 7320 4646 50  0000 L CNN
-F 1 "1k8" H 7320 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7180 4600 50  0001 C CNN
-F 3 "~" H 7250 4600 50  0001 C CNN
-F 4 "541-10510-1-ND" H 7250 4600 50  0001 C CNN "dk_pn"
-F 5 "71-RCS08051K80FKEA" H 7250 4600 50  0001 C CNN "ms_pn"
-	1    7250 4600
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 60395E84
@@ -220,32 +168,6 @@ Wire Wire Line
 	7250 4900 7250 4750
 Wire Wire Line
 	7250 4450 7250 4300
-$Comp
-L Device:LED D2
-U 1 1 603BAE9B
-P 5450 4100
-F 0 "D2" V 5489 3982 50  0000 R CNN
-F 1 "LED" V 5398 3982 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5450 4100 50  0001 C CNN
-F 3 "~" H 5450 4100 50  0001 C CNN
-F 4 "754-2044-1-ND" H 5450 4100 50  0001 C CNN "dk_pn"
-F 5 "604-APTD2012LSURCK" H 5450 4100 50  0001 C CNN "ms_pn"
-	1    5450 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 603BAEA3
-P 5450 4550
-F 0 "R6" H 5520 4596 50  0000 L CNN
-F 1 "1k8" H 5520 4505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 4550 50  0001 C CNN
-F 3 "~" H 5450 4550 50  0001 C CNN
-F 4 "541-10510-1-ND" H 5450 4550 50  0001 C CNN "dk_pn"
-F 5 "71-RCS08051K80FKEA" H 5450 4550 50  0001 C CNN "ms_pn"
-	1    5450 4550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 603BAEA9
@@ -265,4 +187,126 @@ Wire Wire Line
 	5450 3250 5450 3950
 Wire Wire Line
 	7100 3150 7950 3150
+$Comp
+L Device:R R6
+U 1 1 603BAEA3
+P 5450 4550
+F 0 "R6" H 5520 4596 50  0000 L CNN
+F 1 "1k8" H 5520 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 4550 50  0001 C CNN
+F 3 "~" H 5450 4550 50  0001 C CNN
+F 4 "541-10510-1-ND" H 5450 4550 50  0001 C CNN "dk_pn"
+F 5 "71-RCS08051K80FKEA" H 5450 4550 50  0001 C CNN "ms_pn"
+	1    5450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 603BAE9B
+P 5450 4100
+F 0 "D2" V 5489 3982 50  0000 R CNN
+F 1 "LED" V 5398 3982 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5450 4100 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+F 4 "754-2044-1-ND" H 5450 4100 50  0001 C CNN "dk_pn"
+F 5 "604-APTD2012LSURCK" H 5450 4100 50  0001 C CNN "ms_pn"
+	1    5450 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 603954F6
+P 7250 4600
+F 0 "R7" H 7320 4646 50  0000 L CNN
+F 1 "1k8" H 7320 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7180 4600 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+F 4 "541-10510-1-ND" H 7250 4600 50  0001 C CNN "dk_pn"
+F 5 "71-RCS08051K80FKEA" H 7250 4600 50  0001 C CNN "ms_pn"
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60393075
+P 7250 4150
+F 0 "D1" V 7289 4032 50  0000 R CNN
+F 1 "LED" V 7198 4032 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 4150 50  0001 C CNN
+F 3 "~" H 7250 4150 50  0001 C CNN
+F 4 "754-2044-1-ND" H 7250 4150 50  0001 C CNN "dk_pn"
+F 5 "604-APTD2012LSURCK" H 7250 4150 50  0001 C CNN "ms_pn"
+	1    7250 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female POWER_OUT1
+U 1 1 602E8D12
+P 8150 3250
+F 0 "POWER_OUT1" H 8178 3226 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 8178 3135 50  0000 L CNN
+F 2 "wire-connector-lib:connector-wire-3cm2-2pin-smd" H 8150 3250 50  0001 C CNN
+F 3 "~" H 8150 3250 50  0001 C CNN
+F 4 "" H 8150 3250 50  0001 C CNN "ms_pn"
+F 5 "" H 8150 3250 50  0001 C CNN "dk_pn"
+	1    8150 3250
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female POWER_IN1
+U 1 1 602E4815
+P 3550 3250
+F 0 "POWER_IN1" H 3578 3226 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 3578 3135 50  0000 L CNN
+F 2 "wire-connector-lib:connector-wire-3cm2-2pin-smd" H 3550 3250 50  0001 C CNN
+F 3 "~" H 3550 3250 50  0001 C CNN
+F 4 "" H 3550 3250 50  0001 C CNN "ms_pn"
+F 5 "" H 3550 3250 50  0001 C CNN "dk_pn"
+	1    3550 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 603CCF38
+P 1550 3400
+F 0 "H4" H 1650 3446 50  0000 L CNN
+F 1 "MountingHole" H 1650 3355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1550 3400 50  0001 C CNN
+F 3 "~" H 1550 3400 50  0001 C CNN
+	1    1550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 603CCCAE
+P 1550 3200
+F 0 "H3" H 1650 3246 50  0000 L CNN
+F 1 "MountingHole" H 1650 3155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1550 3200 50  0001 C CNN
+F 3 "~" H 1550 3200 50  0001 C CNN
+	1    1550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 603CCA44
+P 1550 3000
+F 0 "H2" H 1650 3046 50  0000 L CNN
+F 1 "MountingHole" H 1650 2955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1550 3000 50  0001 C CNN
+F 3 "~" H 1550 3000 50  0001 C CNN
+	1    1550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 603CA106
+P 1550 2800
+F 0 "H1" H 1650 2846 50  0000 L CNN
+F 1 "MountingHole" H 1650 2755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1550 2800 50  0001 C CNN
+F 3 "~" H 1550 2800 50  0001 C CNN
+	1    1550 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

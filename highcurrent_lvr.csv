@@ -1,48 +1,55 @@
-Source:,/Users/henrychen/Dev/embedded/hardware/highcurrent_lvr/highcurrent_lvr.sch,,,,,,,
-Date:,"Saturday, 27 February 2021 at 06:38:48 pm",,,,,,,
-Tool:,Eeschema (5.1.9-0-10_14),,,,,,,
-Generator:,/private/var/folders/r4/rdfc279s0b1dc4f_nvbyrlbc0000gn/T/AppTranslocation/55773C2F-AB3A-4D4B-8112-5333FD504E05/d/kicad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,,,
-Component Count:,19,,,,,,,
-,,,,,,,,
-Individual Components:,,,,,,,,
-,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,dk_pn,ms_pn
-,,C1,10uF,Device:CP,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,1276-2891-1-ND,187-CL21A106KAYNNNE
-,,C2,10uF,Device:CP,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,1276-2891-1-ND,187-CL21A106KAYNNNE
-,,C3,10uF,Device:CP,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,1276-2891-1-ND,187-CL21A106KAYNNNE
-,,C4,4.7uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,445-C2012X8L1E475K125AECT-ND,810-C2012X8L475K125E
-,,D1,LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,754-2044-1-ND,604-APTD2012LSURCK
-,,HS1,Heatsink,Mechanical:Heatsink,heatsink-lib:Ohmite-BGAH450125E,~,,
-,,POWER_IN1,Conn_01x02_Female,Connector:Conn_01x02_Female,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",~,277-1258-ND,651-1711026
-,,POWER_OUT1,Conn_01x02_Female,Connector:Conn_01x02_Female,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",~,277-1258-ND,651-1711026
-,,Q1,Q_NMOS_DGS,Device:Q_NMOS_GDS,Package_TO_SOT_SMD:TO-252-2,~,742-SUD19N20-90-BE3CT-ND,78-SUD19N20-90-BE3
-,,Q2,Q_NMOS_DGS,Device:Q_NMOS_GDS,Package_TO_SOT_SMD:TO-252-2,~,742-SUD19N20-90-BE3CT-ND,78-SUD19N20-90-BE3
-,,R1,2.7M,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,408-2157-1-ND,754-RGT2012P-275BT5
-,,R2,200k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P200KDACT-ND,71-RCC0805200KFKEA
-,,R3,100k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P100KDACT-ND,603-AT0805FRE07100KL
-,,R4,100k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P100KDACT-ND,603-AT0805FRE07100KL
-,,R5,18,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P100KDACT-ND,667-ERA-6AHD180V
-,,R6,0 - 200,Device:R_Variable,Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal,~,3224G-1-201ECT-ND,652-3224G-1-201E
-,,R7,1k8,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,541-10510-1-ND,71-RCS08051K80FKEA
-,,U1,LTC4365DDB,Power_Management:LTC4365DDB,Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf,LTC4365HDDB-1#TRMPBFCT-ND,584-C4365HDDB-1TMPF
-,,U2,MIC29303WU,Regulator_Linear:MIC29303WU,Package_TO_SOT_SMD:TO-263-5_TabPin3,http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf,MIC29303WU-CT-ND,998-MIC29303WU
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-Collated Components:,,,,,,,,
-,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,dk_pn,ms_pn
-1,3,"C1, C2, C3",10uF,Device:CP,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,1276-2891-1-ND,187-CL21A106KAYNNNE
-2,1,C4,4.7uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,445-C2012X8L1E475K125AECT-ND,810-C2012X8L475K125E
-3,1,D1,LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,754-2044-1-ND,604-APTD2012LSURCK
-4,1,HS1,Heatsink,Mechanical:Heatsink,heatsink-lib:Ohmite-BGAH450125E,~,,
-5,2,"POWER_IN1, POWER_OUT1",Conn_01x02_Female,Connector:Conn_01x02_Female,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",~,277-1258-ND,651-1711026
-6,2,"Q1, Q2",Q_NMOS_DGS,Device:Q_NMOS_GDS,Package_TO_SOT_SMD:TO-252-2,~,742-SUD19N20-90-BE3CT-ND,78-SUD19N20-90-BE3
-7,1,R1,2.7M,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,408-2157-1-ND,754-RGT2012P-275BT5
-8,1,R2,200k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P200KDACT-ND,71-RCC0805200KFKEA
-9,2,"R3, R4",100k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P100KDACT-ND,603-AT0805FRE07100KL
-10,1,R5,18,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,P100KDACT-ND,667-ERA-6AHD180V
-11,1,R6,0 - 200,Device:R_Variable,Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal,~,3224G-1-201ECT-ND,652-3224G-1-201E
-12,1,R7,1k8,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,541-10510-1-ND,71-RCS08051K80FKEA
-13,1,U1,LTC4365DDB,Power_Management:LTC4365DDB,Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf,LTC4365HDDB-1#TRMPBFCT-ND,584-C4365HDDB-1TMPF
-14,1,U2,MIC29303WU,Regulator_Linear:MIC29303WU,Package_TO_SOT_SMD:TO-263-5_TabPin3,http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf,MIC29303WU-CT-ND,998-MIC29303WU
+"Source:","/Users/henrychen/Dev/embedded/hardware/highcurrent_lvr/highcurrent_lvr.sch"
+"Date:","Saturday, 27 February 2021 at 10:26:24 pm"
+"Tool:","Eeschema (5.1.9-0-10_14)"
+"Generator:","/private/var/folders/r4/rdfc279s0b1dc4f_nvbyrlbc0000gn/T/AppTranslocation/55773C2F-AB3A-4D4B-8112-5333FD504E05/d/kicad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","25"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","dk_pn","ms_pn"
+"","","C1","10uF","Device:CP","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","1276-2891-1-ND","187-CL21A106KAYNNNE"
+"","","C2","10uF","Device:CP","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","1276-2891-1-ND","187-CL21A106KAYNNNE"
+"","","C3","10uF","Device:CP","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","1276-2891-1-ND","187-CL21A106KAYNNNE"
+"","","C4","4.7uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","732-7628-1-ND","710-885012107018"
+"","","D1","LED","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","754-2044-1-ND","604-APTD2012LSURCK"
+"","","D2","LED","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","754-2044-1-ND","604-APTD2012LSURCK"
+"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4mm","~","",""
+"","","H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4mm","~","",""
+"","","H3","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4mm","~","",""
+"","","H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4mm","~","",""
+"","","HS1","Heatsink","Mechanical:Heatsink","heatsink-lib:Ohmite-BGAH450125E","~","273-BGAH450-125E-ND","588-BGAH450-125E"
+"","","POWER_IN1","Conn_01x02_Female","Connector:Conn_01x02_Female","wire-connector-lib:connector-wire-3cm2-2pin-smd","~","277-1258-ND","651-1711026"
+"","","POWER_OUT1","Conn_01x02_Female","Connector:Conn_01x02_Female","wire-connector-lib:connector-wire-3cm2-2pin-smd","~","277-1258-ND","651-1711026"
+"","","Q1","Q_NMOS_DGS","Device:Q_NMOS_GDS","Package_TO_SOT_SMD:TO-252-2","~","742-SUD19N20-90-BE3CT-ND","78-SUD19N20-90-BE3"
+"","","Q2","Q_NMOS_DGS","Device:Q_NMOS_GDS","Package_TO_SOT_SMD:TO-252-2","~","742-SUD19N20-90-BE3CT-ND","78-SUD19N20-90-BE3"
+"","","R1","2.7M","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","408-2157-1-ND","603-RC0805FR-072M7L"
+"","","R2","200k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","P200KDACT-ND","71-RCC0805200KFKEA"
+"","","R3","100k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","RMCF0805FT100KCT-ND","71-CRCW0805100KFKEBC"
+"","","R4","100k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","RMCF0805FT100KCT-ND","71-CRCW0805100KFKEBC"
+"","","R5","18","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","P100KDACT-ND","667-ERA-6AHD180V"
+"","","R6","1k8","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","541-10510-1-ND","71-RCS08051K80FKEA"
+"","","R7","1k8","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","541-10510-1-ND","71-RCS08051K80FKEA"
+"","","RV1","R_POT","Device:R_POT","potentiometer-lib:TC33X-2-201G","~","TC33X-2-201G-ND","652-TC33X-2-201G"
+"","","U1","LTC4365DDB","Power_Management:LTC4365DDB","Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm","https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf","LTC4365HDDB-1#TRMPBFCT-ND","584-C4365HDDB-1TMPF"
+"","","U2","MIC29303WU","Regulator_Linear:MIC29303WU","Package_TO_SOT_SMD:TO-263-5_TabPin3","http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf","MIC29303WU-CT-ND","998-MIC29303WU"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","dk_pn","ms_pn"
+"1","3","C1, C2, C3","10uF","Device:CP","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","1276-2891-1-ND","187-CL21A106KAYNNNE"
+"2","1","C4","4.7uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","732-7628-1-ND","710-885012107018"
+"3","2","D1, D2","LED","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","754-2044-1-ND","604-APTD2012LSURCK"
+"4","4","H1, H2, H3, H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_4mm","~","",""
+"5","1","HS1","Heatsink","Mechanical:Heatsink","heatsink-lib:Ohmite-BGAH450125E","~","273-BGAH450-125E-ND","588-BGAH450-125E"
+"6","2","POWER_IN1, POWER_OUT1","Conn_01x02_Female","Connector:Conn_01x02_Female","wire-connector-lib:connector-wire-3cm2-2pin-smd","~","277-1258-ND","651-1711026"
+"7","2","Q1, Q2","Q_NMOS_DGS","Device:Q_NMOS_GDS","Package_TO_SOT_SMD:TO-252-2","~","742-SUD19N20-90-BE3CT-ND","78-SUD19N20-90-BE3"
+"8","1","R1","2.7M","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","408-2157-1-ND","603-RC0805FR-072M7L"
+"9","1","R2","200k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","P200KDACT-ND","71-RCC0805200KFKEA"
+"10","2","R3, R4","100k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","RMCF0805FT100KCT-ND","71-CRCW0805100KFKEBC"
+"11","1","R5","18","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","P100KDACT-ND","667-ERA-6AHD180V"
+"12","2","R6, R7","1k8","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","541-10510-1-ND","71-RCS08051K80FKEA"
+"13","1","RV1","R_POT","Device:R_POT","potentiometer-lib:TC33X-2-201G","~","TC33X-2-201G-ND","652-TC33X-2-201G"
+"14","1","U1","LTC4365DDB","Power_Management:LTC4365DDB","Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm","https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf","LTC4365HDDB-1#TRMPBFCT-ND","584-C4365HDDB-1TMPF"
+"15","1","U2","MIC29303WU","Regulator_Linear:MIC29303WU","Package_TO_SOT_SMD:TO-263-5_TabPin3","http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf","MIC29303WU-CT-ND","998-MIC29303WU"

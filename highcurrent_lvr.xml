@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/henrychen/Dev/embedded/hardware/highcurrent_lvr/highcurrent_lvr.sch</source>
-    <date>Saturday, 27 February 2021 at 06:38:48 pm</date>
+    <date>Saturday, 27 February 2021 at 10:26:24 pm</date>
     <tool>Eeschema (5.1.9-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -45,29 +45,41 @@
     </sheet>
   </design>
   <components>
-    <comp ref="POWER_IN1">
-      <value>Conn_01x02_Female</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+    <comp ref="R6">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="dk_pn">277-1258-ND</field>
-        <field name="ms_pn">651-1711026</field>
+        <field name="dk_pn">541-10510-1-ND</field>
+        <field name="ms_pn">71-RCS08051K80FKEA</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>602E4815</tstamp>
+      <tstamp>603BAEA3</tstamp>
     </comp>
-    <comp ref="POWER_OUT1">
-      <value>Conn_01x02_Female</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="dk_pn">277-1258-ND</field>
-        <field name="ms_pn">651-1711026</field>
+        <field name="dk_pn">754-2044-1-ND</field>
+        <field name="ms_pn">604-APTD2012LSURCK</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>602E8D12</tstamp>
+      <tstamp>603BAE9B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="dk_pn">541-10510-1-ND</field>
+        <field name="ms_pn">71-RCS08051K80FKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603954F6</tstamp>
     </comp>
     <comp ref="D1">
       <value>LED</value>
@@ -81,17 +93,61 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60393075</tstamp>
     </comp>
-    <comp ref="R7">
-      <value>1k8</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+    <comp ref="POWER_OUT1">
+      <value>Conn_01x02_Female</value>
+      <footprint>wire-connector-lib:connector-wire-3cm2-2pin-smd</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="dk_pn">541-10510-1-ND</field>
-        <field name="ms_pn">71-RCS08051K80FKEA</field>
+        <field name="dk_pn">277-1258-ND</field>
+        <field name="ms_pn">651-1711026</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>603954F6</tstamp>
+      <tstamp>602E8D12</tstamp>
+    </comp>
+    <comp ref="POWER_IN1">
+      <value>Conn_01x02_Female</value>
+      <footprint>wire-connector-lib:connector-wire-3cm2-2pin-smd</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="dk_pn">277-1258-ND</field>
+        <field name="ms_pn">651-1711026</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E4815</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603CCF38</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603CCCAE</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603CCA44</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603CA106</tstamp>
     </comp>
     <comp ref="C1">
       <value>10uF</value>
@@ -110,8 +166,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="dk_pn">P100KDACT-ND</field>
-        <field name="ms_pn">603-AT0805FRE07100KL</field>
+        <field name="dk_pn">RMCF0805FT100KCT-ND</field>
+        <field name="ms_pn">71-CRCW0805100KFKEBC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Cutoff/" tstamps="/602C82B2/"/>
@@ -122,8 +178,8 @@
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="dk_pn">P100KDACT-ND</field>
-        <field name="ms_pn">603-AT0805FRE07100KL</field>
+        <field name="dk_pn">RMCF0805FT100KCT-ND</field>
+        <field name="ms_pn">71-CRCW0805100KFKEBC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Cutoff/" tstamps="/602C82B2/"/>
@@ -147,7 +203,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="dk_pn">408-2157-1-ND</field>
-        <field name="ms_pn">754-RGT2012P-275BT5</field>
+        <field name="ms_pn">603-RC0805FR-072M7L</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Cutoff/" tstamps="/602C82B2/"/>
@@ -194,8 +250,8 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="dk_pn">445-C2012X8L1E475K125AECT-ND</field>
-        <field name="ms_pn">810-C2012X8L475K125E</field>
+        <field name="dk_pn">732-7628-1-ND</field>
+        <field name="ms_pn">710-885012107018</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Cutoff/" tstamps="/602C82B2/"/>
@@ -225,18 +281,6 @@
       <sheetpath names="/Regulator/" tstamps="/602A1165/"/>
       <tstamp>602A55D2</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>0 - 200</value>
-      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="dk_pn">3224G-1-201ECT-ND</field>
-        <field name="ms_pn">652-3224G-1-201E</field>
-      </fields>
-      <libsource lib="Device" part="R_Variable" description="Variable resistor"/>
-      <sheetpath names="/Regulator/" tstamps="/602A1165/"/>
-      <tstamp>602A55F6</tstamp>
-    </comp>
     <comp ref="U2">
       <value>MIC29303WU</value>
       <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
@@ -265,9 +309,25 @@
       <value>Heatsink</value>
       <footprint>heatsink-lib:Ohmite-BGAH450125E</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="dk_pn">273-BGAH450-125E-ND</field>
+        <field name="ms_pn">588-BGAH450-125E</field>
+      </fields>
       <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
       <sheetpath names="/Regulator/" tstamps="/602A1165/"/>
       <tstamp>603BE6AA</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>R_POT</value>
+      <footprint>potentiometer-lib:TC33X-2-201G</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="dk_pn">TC33X-2-201G-ND</field>
+        <field name="ms_pn">652-TC33X-2-201G</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Regulator/" tstamps="/602A1165/"/>
+      <tstamp>603A579E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -361,19 +421,20 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_Variable">
-      <description>Variable resistor</description>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
       <docs>~</docs>
       <footprints>
-        <fp>R_*</fp>
+        <fp>Potentiometer*</fp>
       </footprints>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Variable</field>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="Heatsink">
@@ -385,6 +446,17 @@
       <fields>
         <field name="Reference">HS</field>
         <field name="Value">Heatsink</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
       </fields>
     </libpart>
     <libpart lib="Power_Management" part="LTC4365DDB">
@@ -461,73 +533,82 @@
       <node ref="POWER_IN1" pin="2"/>
     </net>
     <net code="2" name="GND">
-      <node ref="C2" pin="2"/>
-      <node ref="POWER_IN1" pin="1"/>
-      <node ref="POWER_OUT1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="9"/>
       <node ref="R7" pin="2"/>
+      <node ref="POWER_OUT1" pin="1"/>
+      <node ref="POWER_IN1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="RV1" pin="1"/>
       <node ref="R3" pin="2"/>
       <node ref="C3" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="1"/>
       <node ref="U2" pin="3"/>
-      <node ref="U1" pin="9"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U1" pin="1"/>
     </net>
     <net code="3" name="/supp_error">
       <node ref="U2" pin="1"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="4" name="/vout">
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="POWER_OUT1" pin="2"/>
-    </net>
-    <net code="5" name="/reg_out">
-      <node ref="Q1" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C4" pin="2"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="6" name="/error">
+    <net code="4" name="/error">
       <node ref="D1" pin="2"/>
       <node ref="U1" pin="7"/>
     </net>
-    <net code="7" name="Net-(D1-Pad1)">
-      <node ref="R7" pin="1"/>
-      <node ref="D1" pin="1"/>
+    <net code="5" name="/vout">
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="POWER_OUT1" pin="2"/>
     </net>
-    <net code="8" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2"/>
+    <net code="6" name="/reg_out">
+      <node ref="Q1" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
       <node ref="R6" pin="1"/>
+    </net>
+    <net code="9" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2"/>
       <node ref="U2" pin="5"/>
     </net>
-    <net code="9" name="Net-(R4-Pad1)">
-      <node ref="U1" pin="8"/>
-      <node ref="R4" pin="1"/>
+    <net code="10" name="Net-(R5-Pad2)">
+      <node ref="RV1" pin="3"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="10" name="Net-(Q1-Pad1)">
-      <node ref="U1" pin="5"/>
+    <net code="11" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="5"/>
       <node ref="Q2" pin="1"/>
     </net>
-    <net code="11" name="Net-(Q1-Pad3)">
-      <node ref="Q2" pin="3"/>
+    <net code="13" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="3"/>
     </net>
-    <net code="12" name="/Cutoff/uv_sense">
-      <node ref="R2" pin="1"/>
+    <net code="14" name="/Cutoff/uv_sense">
       <node ref="R1" pin="2"/>
       <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="13" name="/Cutoff/ov_sense">
+    <net code="15" name="/Cutoff/ov_sense">
+      <node ref="U1" pin="2"/>
       <node ref="R3" pin="1"/>
       <node ref="R2" pin="2"/>
-      <node ref="U1" pin="2"/>
     </net>
   </nets>
 </export>

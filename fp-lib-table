@@ -3,4 +3,5 @@
   (lib (name heatsink-lib)(type KiCad)(uri ${KIPRJMOD}/heatsink-lib.pretty)(options "")(descr ""))
   (lib (name potentiometer-lib)(type KiCad)(uri ${KIPRJMOD}/potentiometer-lib.pretty)(options "")(descr ""))
   (lib (name wire-connector-lib)(type KiCad)(uri ${KIPRJMOD}/wire-connector-lib.pretty)(options "")(descr ""))
+  (lib (name breakpoint-lib)(type KiCad)(uri ${KIPRJMOD}/breakpoint-lib.pretty)(options "")(descr ""))
 )
